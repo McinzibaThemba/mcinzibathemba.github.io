@@ -17,6 +17,10 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 nav ul {
@@ -37,6 +41,11 @@ nav a {
 
 nav a:hover {
     color: #ff9900;
+}
+
+/* Add margin to body to account for the fixed header */
+body {
+    margin-top: 60px;
 }
 
 /* Style the sections */
